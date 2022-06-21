@@ -1,0 +1,41 @@
+{
+  "name": "geekyorion",
+  "version": "1.0.0",
+  "description": "A personal NPX card for Shashank Sharma (geekyorion)",
+  "main": "/src/card.js",
+  "type": "module",
+  "bin": {
+    "geekyorion": "./src/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekyorion/geekyorion-npx-card.git"
+  },
+  "homepage": "https://github.com/geekyorion/",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node ./src/index.js",
+    "view": "npm run build && node ./src/card.js"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "GeekyOrion",
+  "license": "MIT",
+  "files": [
+    "src/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/geekyorion/geekyorion-npx-card/issues"
+  }
+}
