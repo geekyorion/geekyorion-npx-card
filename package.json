@@ -27,11 +27,6 @@
   ],
   "author": "GeekyOrion",
   "license": "MIT",
-  "files": [
-    "src/*",
-    "bin/output",
-    "README.md"
-  ],
   "devDependencies": {
     "boxen": "^7.0.0",
     "chalk": "^5.0.1"
