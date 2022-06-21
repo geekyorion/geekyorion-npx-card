@@ -33,7 +33,7 @@ export const data = {
     {
       website: { text: 'Twitter:', style: bold, color: white },
       url: { text: 'https://twitter.com/', color: grey },
-      handle: { text: 'geekyorion', color: blueBright },
+      handle: { text: 'geekyorion_', color: blueBright },
     },
     {
       website: { text: 'LinkedIn:', style: bold, color: white },
@@ -42,7 +42,7 @@ export const data = {
     },
     {
       website: { text: 'Medium:', style: bold, color: white },
-      url: { text: 'https://medium.com//', color: grey },
+      url: { text: 'https://medium.com/', color: grey },
       handle: { text: '@geekyorion', color: green },
     },
   ],
