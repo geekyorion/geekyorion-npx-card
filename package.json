@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/geekyorion/geekyorion-npx-card.git"
   },
-  "homepage": "https://github.com/geekyorion/",
+  "homepage": "https://github.com/geekyorion/geekyorion-npx-card.git#readme",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node ./src/index.js",
@@ -28,8 +28,9 @@
   "author": "GeekyOrion",
   "license": "MIT",
   "files": [
-    "src/card.js",
-    "bin/output"
+    "src/*",
+    "bin/output",
+    "README.md"
   ],
   "devDependencies": {
     "boxen": "^7.0.0",
