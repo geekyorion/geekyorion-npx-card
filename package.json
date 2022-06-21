@@ -31,7 +31,7 @@
   ],
   "author": "GeekyOrion",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "boxen": "^7.0.0",
     "chalk": "^5.0.1"
   },
