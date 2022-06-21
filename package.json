@@ -2,7 +2,7 @@
   "name": "geekyorion",
   "version": "1.0.2",
   "description": "A personal NPX card for Shashank Sharma (geekyorion)",
-  "main": "/src/card.js",
+  "main": "./src/card.js",
   "type": "module",
   "bin": {
     "geekyorion": "./src/card.js"
@@ -24,6 +24,10 @@
     "npx",
     "npx card",
     "business card"
+  ],
+  "files": [
+    "bin/output",
+    "src/*/**"
   ],
   "author": "GeekyOrion",
   "license": "MIT",
