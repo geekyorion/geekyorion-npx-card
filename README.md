@@ -7,7 +7,7 @@ $ npx geekyorion
 > Generate your own `npx <your_username>` card easily with provided configurations. 😃
 > [Fork](https://github.com/geekyorion/geekyorion-npx-card/fork) & get started and leave a star ⭐ to this repo
 
-**NOTE**: Do not install these package globally i.e. **`npm -g geekyorion`**. Always use **`npx geekyorion`** to view the data as this package is won't be used as any other command
+**NOTE**: Do not install this package as a global package i.e. **`npm -g geekyorion`**. Always use **`npx geekyorion`** to view the card as this package won't be used as any other command
 
 ---
 
@@ -82,6 +82,19 @@ $ npx geekyorion
   COLORMETHODS.rgb    // use method to provide custom colors for both text color and text background color
   ```
 - `io.config.js`: provide the `__dirname` functionality to the ES modules to generate output correctly
+---
+
+## How to publish your own card:
+
+- fork/clone this repo
+- change the data in `src/user/data.js` file
+- login to your npm account using `npm login`
+- publish this to npm using `npm publish`
+- udpate the package version using below commands
+  - ___patch___: `npm version patch` to update last version number v1.0.**1**
+  - ___minor___: `npm version minor` to update middle version number v1.**1**.0
+  - ___major___: `npm version major` to update the first version number v**2**.0.0
+
 ---
 
 ## License

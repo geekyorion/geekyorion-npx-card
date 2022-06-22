@@ -1,7 +1,7 @@
 import { COLORS, MODIFIERS } from '../config/chalk.config.js';
 
 const { white, green, grey, blue, red, blueBright, yellow } = COLORS;
-const { bold } = MODIFIERS;
+const { bold, dim, italic } = MODIFIERS;
 
 export const data = {
   name: {
@@ -49,11 +49,21 @@ export const data = {
   otherLinks: [
     {
       website: { text: 'Web:', style: bold, color: white },
-      url: { text: 'https://github.com/geekyorion', color: grey },
+      url: { text: 'https://github.com/geekyorion/geekyorion-npx-card', color: grey },
     },
     {
       website: { text: 'Card:', style: bold, color: white },
       url: { text: 'npx geekyorion', color: yellow },
-    },
-  ]
+    }
+  ],
+  footer: {
+    text: 'To make your own card, visit',
+    style: dim,
+    color: grey,
+    url: {
+      link: 'https://www.npmjs.com/package/geekyorion/',
+      color: green,
+      style: italic
+    }
+  }
 };
