@@ -1,6 +1,6 @@
 {
   "name": "geekyorion",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A personal NPX card for Shashank Sharma (geekyorion)",
   "main": "./src/card.js",
   "type": "module",
