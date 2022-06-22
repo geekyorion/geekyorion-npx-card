@@ -1,1 +1,1 @@
-export const filePath = './bin/output';
+export const filePath = 'bin/output';
