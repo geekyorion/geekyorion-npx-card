@@ -1,69 +1,75 @@
 import { COLORS, MODIFIERS } from '../config/chalk.config.js';
 
-const { white, green, grey, blue, red, blueBright, yellow } = COLORS;
+const { white, green, grey, blue, red, blueBright, yellow, cyan } = COLORS;
 const { bold, dim, italic } = MODIFIERS;
 
 export const data = {
   name: {
-    text: 'Shashank Sharma',
-    leftSpace: 10,
-    color: white,
-    style: bold
+    text: "David G. Simmons",
+    leftSpace: 5,
+    color: cyan,
+    style: bold,
   },
   handle: {
-    text: 'geekyorion',
+    text: "davidgs",
     color: green,
   },
   work: {
-    label: { text: 'Work:', style: bold, color: white },
-    text: 'Specialist Programmer at Infosys',
-    color: white
+    label: { text: "Work:", style: bold, color: cyan },
+    text: "Head of Developer Relations at Otterize",
+    color: white,
   },
   socialLinks: [
     {
-      website: { text: 'Github:', style: bold, color: white },
-      url: { text: 'https://github.com/', color: grey },
-      handle: { text: 'geekyorion', color: blue },
+      website: { text: "Home:", style: bold, color: cyan },
+      url: { text: "https://davidgs.com/", color: green },
+      handle: { text: "davidgs", color: blue },
     },
     {
-      website: { text: 'npm:', style: bold, color: white },
-      url: { text: 'https://npmjs.com/', color: grey },
-      handle: { text: '~geekyorion', color: red },
+      website: { text: "Github:", style: bold, color: cyan },
+      url: { text: "https://github.com/", color: green },
+      handle: { text: "davidgs", color: blue },
     },
     {
-      website: { text: 'Twitter:', style: bold, color: white },
-      url: { text: 'https://twitter.com/', color: grey },
-      handle: { text: 'geekyorion_', color: blueBright },
+      website: { text: "npm:", style: bold, color: cyan },
+      url: { text: "https://npmjs.com/", color: green },
+      handle: { text: "~davidgs", color: red },
     },
     {
-      website: { text: 'LinkedIn:', style: bold, color: white },
-      url: { text: 'https://linkedin.com/in/', color: grey },
-      handle: { text: 'geekyorion', color: blue },
+      website: { text: "LinkedIn:", style: bold, color: cyan },
+      url: { text: "https://linkedin.com/in/", color: green },
+      handle: { text: "davidgsimmons", color: blue },
     },
     {
-      website: { text: 'Medium:', style: bold, color: white },
-      url: { text: 'https://medium.com/', color: grey },
-      handle: { text: '@geekyorion', color: green },
+      website: { text: "Mastodon:", style: bold, color: cyan },
+      url: { text: "https://tty0.social/", color: green },
+      handle: { text: "@davidgs", color: blue },
+    },
+    {
+      website: { text: "Bluesky Social:", style: bold, color: cyan },
+      url: { text: "https://staging.bsky.app/", color: green },
+      handle: { text: "@davidgs.com", color: blueBright },
+    },
+    {
+      website: { text: "Twitter:", style: bold, color: cyan },
+      url: { text: "https://twitter.com/", color: green },
+      handle: { text: "davidgsIoT", color: blueBright },
     },
   ],
   otherLinks: [
     {
-      website: { text: 'Web:', style: bold, color: white },
-      url: { text: 'https://github.com/geekyorion/geekyorion-npx-card', color: grey },
+      website: { text: "Card:", style: bold, color: cyan },
+      url: { text: "npx davidgs", color: yellow },
     },
-    {
-      website: { text: 'Card:', style: bold, color: white },
-      url: { text: 'npx geekyorion', color: yellow },
-    }
   ],
   footer: {
-    text: 'To make your own card, visit',
+    text: "To make your own card, visit",
     style: dim,
     color: grey,
     url: {
-      link: 'https://www.npmjs.com/package/geekyorion/',
+      link: "https://www.npmjs.com/package/davidgs/",
       color: green,
-      style: italic
-    }
-  }
+      style: italic,
+    },
+  },
 };

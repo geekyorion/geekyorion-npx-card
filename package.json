@@ -1,17 +1,17 @@
 {
-  "name": "geekyorion",
-  "version": "1.1.2",
-  "description": "A personal NPX card for Shashank Sharma (geekyorion)",
+  "name": "davidgs",
+  "version": "1.1.1",
+  "description": "A personal NPX card for David G. Simmons (davidgs)",
   "main": "./src/card.js",
   "type": "module",
   "bin": {
-    "geekyorion": "./src/card.js"
+    "davidgs": "./src/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geekyorion/geekyorion-npx-card.git"
+    "url": "git+https://github.com/davidgs/davidgs-npx-card.git"
   },
-  "homepage": "https://github.com/geekyorion/geekyorion-npx-card.git#readme",
+  "homepage": "https://github.com/davidgs/davidgs-npx-card.git#readme",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node ./src/index.js",
@@ -29,13 +29,13 @@
     "bin/output",
     "src/*/**"
   ],
-  "author": "GeekyOrion",
+  "author": "David G. Simmons",
   "license": "MIT",
   "dependencies": {
     "boxen": "^7.0.0",
     "chalk": "^5.0.1"
   },
   "bugs": {
-    "url": "https://github.com/geekyorion/geekyorion-npx-card/issues"
+    "url": "https://github.com/davidgs/davidgs-npx-card/issues"
   }
 }

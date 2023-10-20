@@ -2,12 +2,12 @@
 # npx-card
 
 ```sh
-$ npx geekyorion
+$ npx davidgs
 ```
 > Generate your own `npx <your_username>` card easily with provided configurations. 😃
-> [Fork](https://github.com/geekyorion/geekyorion-npx-card/fork) & get started and leave a star ⭐ to this repo
+> [Fork](https://github.com/davidgs/davidgs-npx-card/fork) & get started and leave a star ⭐ to this repo
 
-**NOTE**: Do not install this package as a global package i.e. **`npm -g geekyorion`**. Always use **`npx geekyorion`** to view the card as this package won't be used as any other command
+**NOTE**: Do not install this package as a global package i.e. **`npm -g davidgs`**. Always use **`npx davidgs`** to view the card as this package won't be used as any other command
 
 ---
 
@@ -99,4 +99,4 @@ $ npx geekyorion
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
-Copyright (c) 2022 Shashank Sharma (geekyorion)
+Copyright (c) 2023 David G. Simmons (davidgs)
