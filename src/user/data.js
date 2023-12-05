@@ -16,7 +16,7 @@ export const data = {
   },
   work: {
     label: { text: "Work:", style: bold, color: cyan },
-    text: "Head of Developer Relations at Otterize",
+    text: "DevRel Leader",
     color: white,
   },
   socialLinks: [
